@@ -26,7 +26,7 @@ const defaultSEOConfig = {
   additionalLinkTags: [
     {
       rel: "icon",
-      href: "https://cdn-icons-png.flaticon.com/512/1233/1233055.png?w=740&t=st=1669899478~exp=1669900078~hmac=cdb7088b7f105d5383eb605a29732548b0798f2895f3f4fe06afbb0ed5a35f17",
+      href: "https://cdn.tewahi.me/qrfav.png",
     },
   ],
 };
