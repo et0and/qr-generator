@@ -31,18 +31,6 @@ const HeaderComponent = () => {
         )}
       >
         <h5 className="font-bold text-black dark:text-white">QR Generator</h5>
-        <div className="flex items-center gap-4">
-          <ButtonLink
-            href="https://github.com/yehezkielgunawan/qr-generator"
-            variant="ghost"
-            className={clsxm(
-              "text-darkpurple-800 hover:bg-primary-200",
-              "dark:text-darkpurple-50 dark:hover:bg-secondary-700",
-              "rounded-full p-2"
-            )}
-          >
-            <ImGithub size={24} />
-          </ButtonLink>
           <Button
             variant="outline"
             className={clsxm(
@@ -60,7 +48,6 @@ const HeaderComponent = () => {
             )}
           </Button>
         </div>
-      </div>
     </header>
   );
 };
