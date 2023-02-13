@@ -1,11 +1,6 @@
 import React from "react";
-import { SiGithubsponsors } from "react-icons/si";
 
 import clsxm from "@/lib/helpers/clsxm";
-
-import BaseImage from "../images/BaseImage";
-import UnderlineLink from "../links/UnderlineLink";
-import UnstyledLink from "../links/UnstyledLink";
 
 const FooterComponent = () => {
   return (

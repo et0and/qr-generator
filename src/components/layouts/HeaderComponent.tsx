@@ -2,12 +2,10 @@ import clsx from "clsx";
 import { useTheme } from "next-themes";
 import React from "react";
 import { BiMoon, BiSun } from "react-icons/bi";
-import { ImGithub } from "react-icons/im";
 
 import clsxm from "@/lib/helpers/clsxm";
 
 import Button from "../buttons/Button";
-import ButtonLink from "../buttons/ButtonLink";
 
 const HeaderComponent = () => {
   const { resolvedTheme, setTheme } = useTheme();
